@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">beam-to-friend</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string-array name="permissions">
+        <item>offline_access</item>
+        <item>user_about_me</item>
+        <item>friends_about_me</item>
+        <item>user_activities</item>
+        <item>friends_activities</item>
+        <item>user_birthday</item>
+        <item>friends_birthday</item>
+        <item>user_checkins</item>
+        <item>friends_checkins</item>
+        <item>user_education_history</item>
+        <item>friends_education_history</item>
+        <item>user_events</item>
+        <item>friends_events</item>
+        <item>user_groups</item>
+        <item>friends_groups</item>
+        <item>user_hometown</item>
+        <item>friends_hometown</item>
+        <item>user_interests</item>
+        <item>friends_interests</item>
+        <item>user_likes</item>
+        <item>user_photos</item>
+        <item>friends_photos</item>
+        <item>user_questions</item>
+        <item>friends_questions</item>
+        <item>user_relationships</item>
+        <item>friends_relationships</item>
+        <item>user_relationship_details</item>
+        <item>friends_relationship_details</item>
+        <item>user_religion_politics</item>
+        <item>friends_religion_politics</item>
+        <item>user_status</item>
+        <item>friends_status</item>
+        <item>user_subscriptions</item>
+        <item>friends_subscriptions</item>
+        <item>user_videos</item>
+        <item>user_website</item>
+        <item>friends_website</item>
+        <item>user_work_history</item>
+        <item>friends_work_history</item>
+        <item>email</item>
+        <item>read_friendlists</item>
+    </string-array>
+    
+    <string name="user_request">friends.fields(id),inspirational_people,likes.fields(id),
+        						activities,events.fields(id),photos.fields(id,comments.fields(id),
+        						tags.fields(id),sharedposts.fields(id)),tagged.fields(id,story),
+        						posts.fields(id,story,type,via,object_id),feed.fields(id,story,
+        						via,application,object_id),checkins.fields(coordinates)</string>
+
+</resources>
