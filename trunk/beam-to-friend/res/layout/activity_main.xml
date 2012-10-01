@@ -1,6 +1,131 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/transparent" 
-    />
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dip"
+        android:text="Your Friend Name" />
+	
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="True" >
+
+	    <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+	        
+		    
+		    <Button
+		        android:onClick="startSlidingDrawerFromXml"
+		        android:id="@+id/buttonStartSlidingDrawer1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="20dip"
+			    android:text="Friends" />
+		
+		    <Button
+		        android:onClick="startSlidingDrawerFromXml"
+		        android:id="@+id/buttonStartSlidingDrawer2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="20dip"
+		        android:text="Inspirational People" />
+		    <Button
+		        android:id="@+id/buttonStartSlidingDrawer3"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:onClick="startSlidingDrawerFromXml"
+			    android:padding="20dip"
+			    android:text="Likes" />
+		
+		    <Button
+		        android:onClick="startSlidingDrawerFromXml"
+		        android:id="@+id/buttonStartSlidingDrawer4"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="20dip"
+		        android:text="Activities" />
+		    <Button
+		        android:id="@+id/buttonStartSlidingDrawer5"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:onClick="startSlidingDrawerFromXml"
+			    android:padding="20dip"
+			    android:text="Events" />
+		
+		    <Button
+		        android:onClick="startSlidingDrawerFromXml"
+		        android:id="@+id/buttonStartSlidingDrawer6"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="20dip"
+		        android:text="Photos" />
+		    <Button
+		        android:id="@+id/buttonStartSlidingDrawer7"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:onClick="startSlidingDrawerFromXml"
+			    android:padding="20dip"
+			    android:text="Comments" />
+		
+		    <Button
+		        android:onClick="startSlidingDrawerFromXml"
+		        android:id="@+id/buttonStartSlidingDrawer8"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="20dip"
+		        android:text="Tags" />
+		    <Button
+		        android:id="@+id/buttonStartSlidingDrawer9"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:onClick="startSlidingDrawerFromXml"
+			    android:padding="20dip"
+			    android:text="Shared Posts" />
+		
+		    <Button
+		        android:onClick="startSlidingDrawerFromXml"
+		        android:id="@+id/buttonStartSlidingDrawer10"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="20dip"
+		        android:text="Tagged" />
+		    <Button
+		        android:id="@+id/buttonStartSlidingDrawer11"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:onClick="startSlidingDrawerFromXml"
+			    android:padding="20dip"
+			    android:text="Posts" />
+		
+		    <Button
+		        android:onClick="startSlidingDrawerFromXml"
+		        android:id="@+id/buttonStartSlidingDrawer12"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="20dip"
+		        android:text="Type" />
+		    <Button
+		        android:id="@+id/buttonStartSlidingDrawer13"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:onClick="startSlidingDrawerFromXml"
+			    android:padding="20dip"
+			    android:text="Via" />
+		
+		    <Button
+		        android:onClick="startSlidingDrawerFromXml"
+		        android:id="@+id/buttonStartSlidingDrawer14"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="20dip"
+		        android:text="Checkins" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
