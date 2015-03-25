@@ -1,0 +1,1 @@
+Topic-finder is an android app. Topic-finder will help You find topics for talk with an unknown person and\or send friend request to him. Both functionality utilize NFC - so, to get in touch with new friend everything you need is to just touch Your smartphones.
